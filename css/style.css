@@ -277,7 +277,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../image/banner-bg.webp) no-repeat;
+    background: url(../image/banner-bg.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 17rem;
@@ -343,15 +343,15 @@ section{
     padding:1rem 0;
 }
 
-.products .product-slider{
+.pizza .product-slider{
     padding:1rem;
 }
 
-.products .product-slider:first-child{
+.pizza .product-slider:first-child{
     margin-bottom: 2rem;
 }
 
-.products .product-slider .box{
+.pizza .product-slider .box{
     background: #fff;
     border-radius: .5rem;
     text-align: center;
@@ -362,27 +362,27 @@ section{
     transition: .2s linear;
 }
 
-.products .product-slider .box:hover{
+.pizza .product-slider .box:hover{
     outline-offset: 0rem;
     outline: var(--outline-hover);
 }
 
-.products .product-slider .box img{
+.pizza .product-slider .box img{
     height:20rem;
 }
 
-.products .product-slider .box h3{
+.pizza .product-slider .box h3{
     font-size: 2.5rem;
     color:var(--black);
 }
 
-.products .product-slider .box .price{
+.pizza .product-slider .box .price{
     font-size: 2rem;
     color:var(--light-color);
     padding:.5rem 0;
 }
 
-.products .product-slider .box .stars i{
+.pizza .product-slider .box .stars i{
     font-size: 1.7rem;
     color:var(--orange);
     padding:.5rem 0;
